@@ -1,7 +1,5 @@
 # weather-app-light
-Weather App Light using node.js
-
-Welcome to the **weather-app-light wiki**!
+**Weather App Light** using node.js
 
 This is my first attempt to code something using Node.js.
 
