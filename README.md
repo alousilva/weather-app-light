@@ -1,4 +1,4 @@
-# weather-app-light
+# Description
 **Weather App Light** using node.js
 
 This is my first attempt to code something using Node.js.
