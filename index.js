@@ -1,11 +1,10 @@
-let request = require('request');
-const argv = require('yargs').argv;
+const request = require('request');
 
-let apiKey = '';
-let city = argv.c || 'porto';
-let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+const apiKey = '';
+const city = process.argv[2] || 'porto';
+const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
-request(url, function(err, response, body) {
+request(url, (err, response, body) => {
     if (err) {
         console.log('error:', error);
     } else {

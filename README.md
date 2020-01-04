@@ -15,11 +15,11 @@ https://codeburst.io/build-a-simple-weather-app-with-node-js-in-just-16-lines-of
 1) Add your own openweather api key
 2) Launch the app just run this command:
 ```bash
-npm run start
+npm start
 ```
 
-You can also provide the city as an optional argument:
+You can also provide the city as an optional argument. By default it will use 'porto':
 ```bash
-npm run start porto
+npm start porto
 ```
 
