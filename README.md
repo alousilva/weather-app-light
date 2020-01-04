@@ -9,3 +9,17 @@ All the credit goes to [Brandon Morelli](https://codeburst.io/@bmorelli25), crea
 
 This is the original post:
 https://codeburst.io/build-a-simple-weather-app-with-node-js-in-just-16-lines-of-code-32261690901d
+
+# Usage
+
+1) Add your own openweather api key
+2) Launch the app just run this command:
+```bash
+npm run start
+```
+
+You can also provide the city as an optional argument:
+```bash
+npm run start porto
+```
+
